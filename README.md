@@ -31,14 +31,6 @@ Simulation of photomultiplier tube (PMT) response and gain characteristics:
 - SPE charge distribution modeling
 - Understanding PMT statistics and noise
 
-#### 4. **Model-Independent PMT Calibration** - `model_independent_pmt_calibration.ipynb`
-Demonstrates a calibration method that works without assuming specific SPE models:
-- Statistical moment-based approach
-- Background subtraction techniques
-- SPE parameter extraction (mean, variance)
-- Model independence verification with different distributions
-- **Reference**: [Saldanha et al., arXiv:1602.03150](https://arxiv.org/abs/1602.03150)
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -81,8 +73,7 @@ See `REQUIREMENTS.txt` for specific version information.
 
 1. Start with **Chi-Squared Fitting** to understand basic statistical fitting
 2. Try **PMT SPE Simulator** to learn about detector physics
-3. Apply calibration with **Model-Independent PMT Calibration**
-4. Advance to **Feldman-Cousins** for sophisticated limit setting
+3. Advance to **Feldman-Cousins** for sophisticated limit setting
 
 ## 🔬 Applications
 
@@ -96,7 +87,6 @@ These techniques are widely used in:
 
 Key papers and resources:
 - Feldman & Cousins (1998): Unified approach to confidence intervals
-- Saldanha et al. (2016): Model-independent PMT calibration
 - PDG Statistics Review: [https://pdg.lbl.gov/](https://pdg.lbl.gov/)
 
 ## 🤝 Contributing
